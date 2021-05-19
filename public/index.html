@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make HTML page with tables</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/sakura.css/css/sakura.css"
+      type="text/css"
+    />
+    <style>
+      thead {
+        color: rgb(23, 0, 128);
+      }
+      caption {
+        color: rgb(210, 43, 226);
+      }
+      table,
+      th, 
+      td {
+        border: 1px solid black;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>    
+      <h1>Practice of making tables</h1>
+      <nav>
+        <ul>
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#tasks">tasks</a></li>
+          <li><a href="#table">table</a></li>
+        </ul>
+      </nav>
+      <div id="Introduction"></div>
+      <p>
+        As of the 2020 season, out of the 767 drivers who started a Grand
+        Prix,[16] there have been 33 F1 World Drivers' Champions. The first F1
+        World Drivers' Champion was Giuseppe Farina in the 1950 championship and
+        the current title holder is Hamilton in the 2020 season. The title has
+        been won by drivers from the United Kingdom 20 times between 10 drivers,
+        more than any other nation, followed by Brazil, Finland and Germany with
+        three drivers each.
+      </p>
+    </div>
+    <div id="tasks">
+      <h3>List of tasks</h3>
+      <ol>
+        <li>Task1</li>
+        <li>Task2</li>
+        <li>Task3</li>
+      </ol>
+    </div>
+    <br />
+    <a href="./link.html" target="_balnk">Internal Link</a>
+    <br />
+    <h2>By driver</h2>
+    <hr />
+    <img
+      src="images/Schumacher_(Ferrari)_in_practice_at_USGP_2005.jpg"
+      width="800"
+      heigth="200"
+    />
+    <div id="table">
+      <table>
+        <caption>
+          <b>Drivers by number of World Drivers' Championships won</b>
+        </caption>
+        <thead>
+          <tr>
+            <th>Driver</th>
+            <th>Titles</th>
+            <th>Seasons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🇪🇸 Fernando Alonso</td>
+            <td rowspan="2">7</td>
+            <td>1994,1995,2000</td>
+          </tr>
+          <tr>
+            <td>🇬🇧 Lewis Hamilton</td>
+            <td>2008,2014</td>
+          </tr>
+          <tr>
+            <td>🇦🇷 Juan</td>
+            <td>5</td>
+            <td>1951,1954</td>
+          </tr>
+          <tr>
+            <td>🇫🇷 Alain</td>
+            <td>4</td>
+            <td>1985,1986</td>
+          </tr>
+          <tr>
+            <td>🇩🇪 Sebetain</td>
+            <td>4</td>
+            <td>2010,2011</td>
+          </tr>
+          <tr>
+            <td>🇦🇺 Jack</td>
+            <td rowspan="4">3</td>
+            <td>1959,1960,1966</td>
+          </tr>
+          <tr>
+            <td>🇺🇸 Jackie</td>
+
+            <td>1969,1971</td>
+          </tr>
+          <tr>
+            <td>🇦🇹 Niki</td>
+
+            <td>2010,2011</td>
+          </tr>
+          <tr>
+            <td>🇸🇪 Nelson</td>
+
+            <td>1981,1983</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <input type="text" placeholder="Enter name" />
+    <br />
+    <button>Submit</button>
+  </body>
+</html>
